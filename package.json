@@ -1,0 +1,11 @@
+{
+  "name": "userscripts",
+  "description": "A collection of userscripts.",
+  "scripts": {
+    "format": "prettier -w ."
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.3.1"
+  }
+}
