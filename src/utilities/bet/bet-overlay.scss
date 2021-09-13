@@ -1,0 +1,24 @@
+$orange: #f97316;
+
+html {
+	margin: 5px;
+}
+
+.bet-overlay {
+	position: fixed;
+	inset: 0;
+	border: 5px solid $orange;
+	padding: 0.1em;
+	z-index: 696969;
+	pointer-events: none;
+
+	.bet-overlay-text {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		background: $orange;
+		padding: 0.1em;
+		z-index: 696969;
+		border-radius: 0 5px 0 0;
+	}
+}

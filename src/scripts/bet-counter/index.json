@@ -1,0 +1,11 @@
+{
+	"$entry": "./main.jsx",
+	"name": "BET Counter",
+	"description": "Adds an attempt counter to assessment summary pages.",
+	"version": "1.1.0",
+	"namespace": "https://github.com/AndrewLemons",
+	"author": "AndrewLemons",
+	"grant": "none",
+	"match": "*://*.blackboard.com/webapps/gradebook/do/student/viewAttempts",
+	"updateURL": "https://raw.githubusercontent.com/AndrewLemons/userscripts/master/dist/bet-counter.user.js"
+}

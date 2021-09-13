@@ -1,11 +1,27 @@
 {
-  "name": "userscripts",
-  "description": "A collection of userscripts.",
-  "scripts": {
-    "format": "prettier -w ."
-  },
-  "license": "ISC",
-  "devDependencies": {
-    "prettier": "^2.3.1"
-  }
+	"name": "userscripts",
+	"description": "A collection of userscripts.",
+	"scripts": {
+		"build": "webpack build",
+		"format": "prettier -w .",
+		"prepare": "husky install"
+	},
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.15.5",
+		"@babel/plugin-transform-react-jsx": "^7.14.9",
+		"@babel/preset-env": "^7.15.6",
+		"babel-loader": "^8.2.2",
+		"css-loader": "^6.2.0",
+		"husky": "^7.0.2",
+		"prettier": "^2.3.1",
+		"sass": "^1.39.2",
+		"sass-loader": "^12.1.0",
+		"style-loader": "^3.2.1",
+		"webpack": "^5.52.1",
+		"webpack-cli": "^4.8.0"
+	},
+	"dependencies": {
+		"glob": "^7.1.7"
+	}
 }
