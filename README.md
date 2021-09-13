@@ -10,7 +10,7 @@ _This script is a part of the Blackboard Enhancement Tools collection._
 
 Provides easy to use buttons to copy questions and answers on assessments.
 
-[Install](https://raw.githubusercontent.com/AndrewLemons/userscripts/master/src/bet-copycat.user.js)
+[Install](https://raw.githubusercontent.com/AndrewLemons/userscripts/master/dist/bet-copycat.user.js)
 
 ### BET Counter
 
@@ -18,4 +18,4 @@ _This script is a part of the Blackboard Enhancement Tools collection._
 
 Adds an attempt counter to assessment summary pages.
 
-[Install](https://raw.githubusercontent.com/AndrewLemons/userscripts/master/src/bet-counter.user.js)
+[Install](https://raw.githubusercontent.com/AndrewLemons/userscripts/master/dist/bet-counter.user.js)
