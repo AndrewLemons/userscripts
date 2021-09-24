@@ -25,7 +25,7 @@ window.copyFrom = (element) => {
 //-----
 
 // Questions
-$$(".legend-visible").forEach(($item) => addCopyButton($item.parentNode));
+$$(".legend-visible").forEach(($item) => addCopyButton($item));
 
 // Answers
 $$(".multiple-choice-table td:nth-of-type(3)").forEach(($item) =>
