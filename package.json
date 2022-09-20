@@ -3,8 +3,7 @@
 	"description": "A collection of userscripts.",
 	"scripts": {
 		"build": "webpack build",
-		"format": "prettier -w .",
-		"prepare": "husky install"
+		"format": "prettier -w ."
 	},
 	"license": "ISC",
 	"devDependencies": {
