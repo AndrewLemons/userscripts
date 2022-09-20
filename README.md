@@ -19,3 +19,9 @@ _This script is a part of the Blackboard Enhancement Tools collection._
 Adds an attempt counter to assessment summary pages.
 
 [Install](https://raw.githubusercontent.com/AndrewLemons/userscripts/master/dist/bet-counter.user.js)
+
+### CRX Downloader
+
+Download CRX files from the Chrome Web Store on browsers which do not support the install button.
+
+[Install](https://raw.githubusercontent.com/AndrewLemons/userscripts/master/dist/crx-downloader.user.js)
