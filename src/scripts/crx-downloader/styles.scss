@@ -1,0 +1,21 @@
+.crxd__container {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	position: fixed;
+	inset: 0px;
+	padding: 0 20px;
+
+	pointer-events: none;
+	z-index: 2000;
+}
+
+.crxd__button {
+	color: white;
+	background-color: #1967d2;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px 20px;
+
+	pointer-events: all;
+	cursor: pointer;
+}

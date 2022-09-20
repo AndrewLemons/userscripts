@@ -1,0 +1,11 @@
+{
+	"$entry": "./main.jsx",
+	"name": "CRX Downloader",
+	"description": "Download CRX files from the Chrome Web Store on browsers which do not support the install button.",
+	"version": "1.0.0",
+	"namespace": "https://github.com/AndrewLemons",
+	"author": "AndrewLemons",
+	"grant": ["GM.getValue", "GM.setValue", "GM.download", "GM.info"],
+	"match": "https://chrome.google.com/webstore/detail/*/*",
+	"updateURL": "https://raw.githubusercontent.com/AndrewLemons/userscripts/master/dist/crx-downloader.user.js"
+}
