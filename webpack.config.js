@@ -84,6 +84,17 @@ module.exports = {
 					output.push(`// @${key} ${metadata[key]}`);
 				}
 			});
+
+			// Static metadata
+			output.push(`// @author AndrewLemons`);
+			output.push(`// @namespace https://github.com/AndrewLemons`);
+			output.push(
+				"// @homepageURL https://github.com/AndrewLemons/userscripts"
+			);
+			output.push(
+				"// @supportURL https://github.com/AndrewLemons/userscripts/issues"
+			);
+
 			output.push(`// ==/UserScript==\n`);
 			return output.join("\n");
 		}),
