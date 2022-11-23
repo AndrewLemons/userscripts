@@ -25,3 +25,9 @@ Adds an attempt counter to assessment summary pages.
 Download CRX files from the Chrome Web Store on browsers which do not support the install button.
 
 [Install](https://raw.githubusercontent.com/AndrewLemons/userscripts/master/dist/crx-downloader.user.js)
+
+### Canvas Dashboard Simplifier
+
+Simplifies the Canvas dashboard by removing class banner images.
+
+[Install](https://raw.githubusercontent.com/AndrewLemons/userscripts/master/dist/canvas-dashboard-simplifier.user.js)
